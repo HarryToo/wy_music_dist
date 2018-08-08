@@ -1,0 +1,31 @@
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+section .plate_header {
+    padding-bottom: 16px;
+    color: #666;
+    font-size: 12px;
+}
+
+.swiper-pagination-bullet {
+    width: 20px !important;
+    height: 1px !important;
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #b7181a !important;
+}
